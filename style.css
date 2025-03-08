@@ -1,0 +1,38 @@
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 20px; 
+}
+
+.dashboard { 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; /* Ensures space between the sections */
+    align-items: flex-start; /* Aligns them at the top */
+    padding: 50px;
+}
+
+.controls { 
+    width: 300px; 
+    padding: 10px; 
+}
+
+.chart-container { 
+    flex-grow: 1; 
+    min-width: 600px; 
+    padding-left: 250px;
+}
+
+.tooltip { 
+    position: absolute; 
+    background: white; 
+    border: 1px solid #ddd; 
+    padding: 10px; 
+    border-radius: 5px; 
+    pointer-events: none; 
+}
+
+select, button { 
+    margin: 5px 0; 
+    padding: 5px; 
+    width: 100%; 
+}
